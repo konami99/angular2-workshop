@@ -1,0 +1,1 @@
+{"version":3,"file":"table-view.js","sourceRoot":"","sources":["table-view.ts"],"names":["TableView","TableView.constructor"],"mappings":";;;;;;;;;;;AAAA,qBAAwB,eAAe,CAAC,CAAA;AAExC;IAAAA;IAKwBC,CAACA;IALzBD;QAACA,gBAASA,CAACA;YACTA,QAAQA,EAAEA,YAAYA;YACtBA,WAAWA,EAAEA,8CAA8CA;SAC5DA,CAACA;;kBAEuBA;IAADA,gBAACA;AAADA,CAACA,AALzB,IAKyB;AAAZ,iBAAS,YAAG,CAAA"}

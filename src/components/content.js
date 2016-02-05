@@ -10,14 +10,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('angular2/core');
-var tables_1 = require('./tables');
+var tables_1 = require('./Tables/tables');
 var Content = (function () {
     function Content() {
     }
     Content = __decorate([
         core_1.Component({
             selector: 'content',
-            template: "<div class=\"container\">\n        <tables></tables>\n    </div>",
+            template: "<div class=\"container\">\n        <tables></tables>\n        <!--<order-view></order-view>-->\n    </div>",
             directives: [tables_1.Tables]
         }), 
         __metadata('design:paramtypes', [])

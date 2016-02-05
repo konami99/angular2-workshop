@@ -9,21 +9,20 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('angular2/core');
-var top_navbar_1 = require('./top-navbar/top-navbar');
-var content_1 = require('./content');
-var App = (function () {
-    function App() {
+var core_1 = require("angular2/core");
+var table_view_1 = require('./table-view/table-view');
+var Tables = (function () {
+    function Tables() {
     }
-    App = __decorate([
+    Tables = __decorate([
         core_1.Component({
-            selector: 'app',
-            template: "\n        <top-navbar></top-navbar>\n        <content></content>\n    ",
-            directives: [content_1.Content, top_navbar_1.TopNavBar]
+            selector: 'tables',
+            template: "\n    <div class=\"table-container\">\n      <table-view></table-view>\n    </div>\n    ",
+            directives: [table_view_1.TableView]
         }), 
         __metadata('design:paramtypes', [])
-    ], App);
-    return App;
+    ], Tables);
+    return Tables;
 })();
-exports.App = App;
-//# sourceMappingURL=app.js.map
+exports.Tables = Tables;
+//# sourceMappingURL=tables.js.map

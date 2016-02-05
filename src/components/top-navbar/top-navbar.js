@@ -16,7 +16,7 @@ var TopNavBar = (function () {
     TopNavBar = __decorate([
         core_1.Component({
             selector: 'top-navbar',
-            template: "\n      <nav class=\"navbar navbar-inverse\">\n      <div class=\"container\">\n        <div class=\"navbar-header\">\n          <a class=\"navbar-brand\" href=\"#\">RESTAURANT</a>\n        </div>\n        <ul class=\"nav navbar-nav\">\n          <li><a href=\"#\">tables</a></li>\n          <li><a href=\"#\">history</a></li>\n        </ul>\n        <button class=\"btn btn-default navbar-btn navbar-right\">\n          ADD TABLE &nbsp;<span class=\"glyphicon glyphicon-plus\"></span>\n        </button>\n      </div>\n    </nav>\n    "
+            templateUrl: 'components/top-navbar/top-navbar.html'
         }), 
         __metadata('design:paramtypes', [])
     ], TopNavBar);
