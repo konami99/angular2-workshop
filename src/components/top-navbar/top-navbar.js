@@ -10,12 +10,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('angular2/core');
+var router_1 = require('angular2/router');
 var TopNavBar = (function () {
     function TopNavBar() {
     }
     TopNavBar = __decorate([
         core_1.Component({
             selector: 'top-navbar',
+            directives: [router_1.ROUTER_DIRECTIVES],
             templateUrl: 'components/top-navbar/top-navbar.html'
         }), 
         __metadata('design:paramtypes', [])

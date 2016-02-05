@@ -14,16 +14,22 @@ var new_item_form_1 = require('./new-item-form/new-item-form');
 var item_list_1 = require('./item-list/item-list');
 var item_comments_1 = require('./item-comments/item-comments');
 var item_buttons_1 = require('./item-buttons/item-buttons');
+var router_1 = require("angular2/router");
 var OrderView = (function () {
-    function OrderView() {
+    function OrderView(routeParams) {
+        this.routeParams = routeParams;
     }
+    OrderView.prototype.ngOnInit = function () {
+        var tableId = this.routeParams.get('id');
+        console.log(tableId);
+    };
     OrderView = __decorate([
         core_1.Component({
             selector: 'order-view',
             directives: [new_item_form_1.NewItemForm, item_list_1.ItemList, item_comments_1.ItemComments, item_buttons_1.ItemButtons],
             templateUrl: 'components/order-view/order-view.html'
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [router_1.RouteParams])
     ], OrderView);
     return OrderView;
 })();

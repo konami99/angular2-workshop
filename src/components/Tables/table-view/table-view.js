@@ -10,15 +10,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("angular2/core");
+var router_1 = require("angular2/router");
 var TableView = (function () {
-    function TableView() {
+    function TableView(router) {
+        this.router = router;
     }
+    TableView.prototype.editOrder = function (tableId) {
+        this.router.navigate(['OrderView', { id: tableId }]);
+    };
     TableView = __decorate([
         core_1.Component({
             selector: 'table-view',
             templateUrl: 'components/Tables/table-view/table-view.html'
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [router_1.Router])
     ], TableView);
     return TableView;
 })();
