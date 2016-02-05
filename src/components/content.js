@@ -17,7 +17,7 @@ var Content = (function () {
     Content = __decorate([
         core_1.Component({
             selector: 'content',
-            template: "<div class=\"container\">\n        <tables></tables>\n        <!--<order-view></order-view>-->\n    </div>",
+            template: "<div class=\"container\">\n        <tables></tables>\n        <!--<order-view></order-view>-->\n        <!--<order-history></order-history>-->\n    </div>",
             directives: [tables_1.Tables]
         }), 
         __metadata('design:paramtypes', [])
