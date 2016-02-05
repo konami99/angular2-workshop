@@ -9,20 +9,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require("angular2/core");
-var table_view_1 = require('./table-view');
-var Tables = (function () {
-    function Tables() {
+var core_1 = require('angular2/core');
+var ItemButtons = (function () {
+    function ItemButtons() {
     }
-    Tables = __decorate([
+    ItemButtons = __decorate([
         core_1.Component({
-            selector: 'tables',
-            template: "\n    <div class=\"table-container\">\n      <table-view></table-view>\n    </div>\n    ",
-            directives: [table_view_1.TableView]
+            selector: 'item-buttons',
+            templateUrl: 'components/order-view/item-buttons/item-buttons.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], Tables);
-    return Tables;
+    ], ItemButtons);
+    return ItemButtons;
 })();
-exports.Tables = Tables;
-//# sourceMappingURL=tables.js.map
+exports.ItemButtons = ItemButtons;
+//# sourceMappingURL=item-buttons.js.map

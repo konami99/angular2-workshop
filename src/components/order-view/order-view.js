@@ -9,20 +9,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require("angular2/core");
-var table_view_1 = require('./table-view');
-var Tables = (function () {
-    function Tables() {
+var core_1 = require('angular2/core');
+var new_item_form_1 = require('./new-item-form/new-item-form');
+var item_list_1 = require('./item-list/item-list');
+var item_comments_1 = require('./item-comments/item-comments');
+var item_buttons_1 = require('./item-buttons/item-buttons');
+var OrderView = (function () {
+    function OrderView() {
     }
-    Tables = __decorate([
+    OrderView = __decorate([
         core_1.Component({
-            selector: 'tables',
-            template: "\n    <div class=\"table-container\">\n      <table-view></table-view>\n    </div>\n    ",
-            directives: [table_view_1.TableView]
+            selector: 'order-view',
+            directives: [new_item_form_1.NewItemForm, item_list_1.ItemList, item_comments_1.ItemComments, item_buttons_1.ItemButtons],
+            templateUrl: 'components/order-view/order-view.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], Tables);
-    return Tables;
+    ], OrderView);
+    return OrderView;
 })();
-exports.Tables = Tables;
-//# sourceMappingURL=tables.js.map
+exports.OrderView = OrderView;
+//# sourceMappingURL=order-view.js.map

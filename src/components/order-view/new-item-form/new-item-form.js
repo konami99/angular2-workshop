@@ -9,20 +9,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require("angular2/core");
-var table_view_1 = require('./table-view');
-var Tables = (function () {
-    function Tables() {
+var core_1 = require('angular2/core');
+var NewItemForm = (function () {
+    function NewItemForm() {
     }
-    Tables = __decorate([
+    NewItemForm = __decorate([
         core_1.Component({
-            selector: 'tables',
-            template: "\n    <div class=\"table-container\">\n      <table-view></table-view>\n    </div>\n    ",
-            directives: [table_view_1.TableView]
+            selector: 'new-item-form',
+            templateUrl: 'components/order-view/new-item-form/new-item-form.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], Tables);
-    return Tables;
+    ], NewItemForm);
+    return NewItemForm;
 })();
-exports.Tables = Tables;
-//# sourceMappingURL=tables.js.map
+exports.NewItemForm = NewItemForm;
+//# sourceMappingURL=new-item-form.js.map

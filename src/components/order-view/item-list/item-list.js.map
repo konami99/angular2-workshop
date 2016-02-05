@@ -1,0 +1,1 @@
+{"version":3,"file":"item-list.js","sourceRoot":"","sources":["item-list.ts"],"names":["ItemList","ItemList.constructor"],"mappings":";;;;;;;;;;;AAAA,qBAAwB,eAAe,CAAC,CAAA;AAExC;IAAAA;IAKuBC,CAACA;IALxBD;QAACA,gBAASA,CAACA;YACPA,QAAQA,EAAEA,WAAWA;YACrBA,WAAWA,EAAEA,gDAAgDA;SAChEA,CAACA;;iBAEsBA;IAADA,eAACA;AAADA,CAACA,AALxB,IAKwB;AAAX,gBAAQ,WAAG,CAAA"}
